@@ -6,6 +6,7 @@
 
 # Terminal commands:
 **mvn clean test** - removes files created during build in the project directory, then build.
+
 **allure serve allure serve target/surefire-reports** - generates a log report.
 
 # Task:
