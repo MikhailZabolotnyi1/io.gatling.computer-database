@@ -1,4 +1,4 @@
-import io.qameta.allure.Description;
+
 import org.junit.rules.ErrorCollector;
 import org.junit.*;
 import org.openqa.selenium.WebDriver;
@@ -40,10 +40,13 @@ public class Tests {
 
         System.out.println("Name input");
         addComputerPage.clickOnComputerName().sendComputerName();
+
         System.out.println("Introduced date input");
         addComputerPage.clickOnIntroducedDate().sendIntroducedDate();
+
         System.out.println("Discontinued date input");
         addComputerPage.clickOnDiscontinuedDate().sendDiscontinuedDate();
+
         System.out.println("Select first element from selector");
         addComputerPage.selectFirstElement();
 
