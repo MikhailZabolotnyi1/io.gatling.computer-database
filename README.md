@@ -3,6 +3,7 @@
 * IntelliJ IDEA;
 * Google Chrome v90.0.4430.212 (64);
 * ChromeDriver 90.0.4430.24;
+* Allure 2.14.0;
 
 # Terminal commands:
 **mvn clean test** - removes files created during build in the project directory, then build.
